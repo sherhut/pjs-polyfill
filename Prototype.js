@@ -121,7 +121,7 @@
     }
   }
 
-  ArrayType.prototype.buildPar = Array.prototype.build;
+  ArrayType.prototype.buildPar = ArrayType.prototype.build;
 
   ArrayType.prototype.fromPar = function(a, b, c) {
     // Arguments: arrayLike, [depth], func
