@@ -105,14 +105,14 @@
     // to
     //     [5, 5, 8, 0]
 
-    assertEq(indices.length, iterationSpace.length);
+    //assertEq(indices.length, iterationSpace.length);
     var n = indices.length - 1;
     while (true) {
       indices[n] += 1;
       if (indices[n] < iterationSpace[n])
         return;
 
-      assertEq(indices[n], iterationSpace[n]);
+      //assertEq(indices[n], iterationSpace[n]);
       indices[n] = 0;
       if (n == 0)
         return;
